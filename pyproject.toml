@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools >= 40.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "test_segv"
+version = "1"
+
+[tool.setuptools]
+ext-modules = [ { name = "test_segv", sources=["test.c"]} ]

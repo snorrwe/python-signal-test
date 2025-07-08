@@ -1,0 +1,3 @@
+.direnv
+test_segv.egg-info
+test_segv.cpython-313-x86_64-linux-gnu.so
